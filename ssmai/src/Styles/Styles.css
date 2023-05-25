@@ -60,3 +60,20 @@
     margin-left: 800px;
     margin-top: 260px;
 }
+
+.infos .upload{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 600px;
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--cinza);
+    color: var(--azul-medio);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 29px;
+    text-align: center;
+    border-color: none;
+}
