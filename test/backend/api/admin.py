@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import resultado
 
-# Register your models here.
+@admin.register(resultado)
+class resultadoAdmin(admin.ModelAdmin):
+    list_display = ('res',)
